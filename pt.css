@@ -1,0 +1,128 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background: linear-gradient(45deg,#d2001a,black,#1c2e4a,darkblue,#192841,#1c2e4a,#152238,darkblue,#1c2e4a,black);
+    background-size:300% 300%;
+    animation: color 12s ease-in-out infinite;
+    font-family: Playfair Display;
+    overflow: hidden;
+}
+@keyframes color{
+ 0%{
+        background-position: 0 50%;
+    }
+50%{
+    background-position: 100% 50%;
+}
+100%{
+     background-position: 0 50%;
+}
+
+}
+.container{
+    height:100vw;
+    background-size: cover;
+  
+    padding-left: 40px;
+    
+}
+.heading-container1{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    color:whitesmoke;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 5px;
+}
+ .list-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    list-style-type:none;
+    color: white;
+    font-size: 20px;
+    margin-right: 0px;
+    padding: 2px;
+
+}
+li{
+    padding-left: 2%;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 350;
+}
+.para{
+    position: relative;
+    left: 50px;
+    width: 350;
+    top: 20px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+
+.r{
+    display: flex;
+    flex-direction: row;
+
+}
+.im{
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+.links{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top:90px;
+    color: aqua;
+    
+
+
+}
+i{
+    padding: 10px;
+
+}
+.hello{
+    position: relative;
+    left: 50px;
+}
+.headi{
+    position: relative;
+    top:30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+ 
+ 
+.but{
+    display: flex;
+    position: relative;
+    top:20px
+}
+button{
+    background-color: aqua;
+    border:0px;
+     width: 100px;
+     border-radius: 6px;
+     position: relative;
+     left: 60px;
+     line-height: 30px;
+     font-size: medium;
+     margin-right: 30px;
+}
+button:hover{
+    background-color: aquamarine;
+}
+h1{
+    color:aquamarine;
+    font-family:"Verdana";
+}
